@@ -1,0 +1,23 @@
+{
+  "name": "ca-validation",
+  "version": "0.0.1",
+  "description": "Clean Architecture Domain Validation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nyc ava 'src/**/*.test.js' --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordandenison/ca-validation.git"
+  },
+  "author": "Jordan Denison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordandenison/ca-validation/issues"
+  },
+  "homepage": "https://github.com/jordandenison/ca-validation#readme",
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "nyc": "^10.1.2"
+  }
+}
